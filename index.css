@@ -67,7 +67,7 @@ body{
     font-size: 1.5rem;
     line-height: 2.4rem;
 }
-#mainbody2, #mainbody3{
+#mainbody2, #mainbody3, #mainbody4{
     padding: 6%;
     padding-top: 0;
     padding-bottom: 3%;
@@ -94,6 +94,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: left;
+}
+#copy8{
+    width: 20%;
+    font-family: Arial, sans-serif;   
+    font-size: 2.4rem; 
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: -0.03rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#source1{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
 }
 @media (max-width:780px) {
     #container{
@@ -137,4 +154,11 @@ body{
         font-size: 1.2rem;
         line-height: 1.8rem;
     }        
+    #copy8{
+        width: 35%;
+        font-size: 2.1rem;
+    }
+    #source1{
+        width: 65%;
+    }
 }
