@@ -99,13 +99,25 @@ body{
     align-items: center;
     justify-content: left;
 }
-#mainbody4, #mainbody9{
+#mainbody4{
     padding: 3%;
     padding-bottom: 6%;
     display: flex;
     justify-content: center;
 }
+#mainbody9{
+    padding: 3%;
+    padding-bottom: 15%;
+    display: flex;
+    justify-content: center;
+}
 #link1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
+#link2{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
@@ -159,7 +171,7 @@ body{
     padding-bottom: 2%;
     display: flex;
     justify-content: center;
-    font-size: 2.8rem;
+    font-size: 2.9rem;
     font-style: italic;
     color: black;
     letter-spacing: -0.03rem;
@@ -234,8 +246,8 @@ body{
         font-size: 1.2rem;
         line-height: 1.8rem;
     }        
-    #link1{
-        font-size: 1.1rem;
+    #link1, #link2{
+        font-size: 1.2rem;
     }    
     #copy8{
         width: 30%;
@@ -258,7 +270,7 @@ body{
     #mainbody7{
         padding-top: 13%;
         padding-bottom: 4%;
-        font-size: 2.4rem;
+        font-size: 2.3rem;
     }
     #mainvody8{
         padding-bottom: 13%;
