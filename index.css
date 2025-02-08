@@ -2,6 +2,10 @@
     font-family: NotoSansKR-Black;
     src: url(./source/NotoSansKR-Black.ttf) format(truetype);
 }
+@font-face {
+    font-family: NotoSansKR-Regular;
+    src: url(./source/NotoSansKR-Regular.ttf) format(truetype);
+}
 body{
     margin: 0;
     padding: 0;
@@ -106,18 +110,11 @@ body{
     justify-content: center;
 }
 #mainbody9{
-    padding: 3%;
     padding-bottom: 20%;
     display: flex;
     justify-content: center;
 }
-#link1{
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: black;
-}
-#link2{
+#link1, #link2{
     text-align: center;
     font-size: 1.5rem;
     font-weight: 400;
@@ -165,29 +162,30 @@ body{
     justify-content: center;
 }
 #mainbody7{
-    padding-top: 8%;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 2%;
+    margin-top: 8%;
+    margin-bottom: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    font-size: 2.9rem;
+    font-size: 2.4rem;
     font-style: italic;
     color: black;
     letter-spacing: -0.03rem;
     text-align: center;
     font-family: NotoSansKR-Black;
-    line-height: 3rem;
 }
 #mainvody8{
-    padding: 8%;    
-    padding-top: 0;
+    margin: 0;
+    margin-bottom: 4%;
+    padding: 0;
     display: flex;
     justify-content: center;
-    font-size: 2.6rem;
+    font-size: 2rem;
     font-style: italic;
     color: black;
     letter-spacing: -0.03rem;
+    font-family: NotoSansKR-Regular;
+    text-align: center;
 }
 @media (max-width:780px) {
     #container{
@@ -268,13 +266,11 @@ body{
         border-radius: 9px;
     }
     #mainbody7{
-        padding-top: 13%;
-        padding-bottom: 4%;
-        font-size: 2.3rem;
+        margin-top: 13%;
+        font-size: 2rem;
     }
     #mainvody8{
-        padding-bottom: 13%;
-        padding-top: 0;
-        font-size: 1.9rem;
+        margin-bottom: 6%;
+        font-size: 1.6rem;
     }
 }
