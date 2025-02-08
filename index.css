@@ -183,6 +183,7 @@ body{
     #copy8{
         width: 30%;
         font-size: 1.8rem;
+        justify-content: center;
     }
     #source1{
         width: 70%;
