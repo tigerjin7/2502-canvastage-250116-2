@@ -1,3 +1,7 @@
+@font-face {
+    font-family: NotoSansKR-Black;
+    src: url(./source/NotoSansKR-Black.ttf) format(truetype);
+}
 body{
     margin: 0;
     padding: 0;
@@ -25,7 +29,7 @@ body{
 }
 #maintitle{
     padding: 1.5%;
-    margin-bottom: 3%;
+    margin-bottom: 2%;
     border: 1px solid black;
     border-radius: 15px;
     display: flex;
@@ -62,15 +66,15 @@ body{
 }
 #copy3{
     padding-left: 6%;
-    width: 65%;
+    width: 72%;
     height: 550px;
-    font-size: 1.5rem;
-    line-height: 2.4rem;
+    font-size: 1.7rem;
+    line-height: 2.6rem;
 }
-#mainbody2, #mainbody3, #mainbody4{
-    padding: 6%;
+#mainbody2, #mainbody3, #mainbody5{
+    padding: 4%;
     padding-top: 0;
-    padding-bottom: 3%;
+    padding-bottom: 0;
     display: flex;
 }
 #copy4, #copy7{
@@ -95,8 +99,20 @@ body{
     align-items: center;
     justify-content: left;
 }
+#mainbody4, #mainbody9{
+    padding: 3%;
+    padding-bottom: 6%;
+    display: flex;
+    justify-content: center;
+}
+#link1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: black;
+}
 #copy8{
-    width: 20%;
+    width: 18%;
     font-family: Arial, sans-serif;   
     font-size: 2.4rem; 
     font-weight: bold;
@@ -107,15 +123,13 @@ body{
     justify-content: left;
 }
 #source1{
-    width: 80%;
+    width: 81%;
     display: flex;
     align-items: center;
     justify-content: right;
 }
-#mainbody5{
-    padding: 5%;
-    padding-top: 0;
-    padding-bottom: 3%;
+#mainbody6{
+    padding: 3.5%;
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -128,7 +142,7 @@ body{
     margin-right: 0.6%;
     margin-left: 0.6%;
     margin-bottom: 1%;
-    width: 21.8%;
+    width: 21.6%;
     font-size: 1.3rem;
     text-align: center;
     color: white;
@@ -137,6 +151,31 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#mainbody7{
+    padding-top: 8%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.8rem;
+    font-style: italic;
+    color: black;
+    letter-spacing: -0.03rem;
+    text-align: center;
+    font-family: NotoSansKR-Black;
+    line-height: 3rem;
+}
+#mainvody8{
+    padding: 8%;    
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    font-size: 2.6rem;
+    font-style: italic;
+    color: black;
+    letter-spacing: -0.03rem;
 }
 @media (max-width:780px) {
     #container{
@@ -161,13 +200,28 @@ body{
     }
     #mainbody2{
         padding: 6%;
-        padding-bottom: 3%;
+        padding-bottom: 8%;
         padding-top: 0;
         flex-direction: column;
     }
     #mainbody3{
         padding: 6%;
+        padding-top: 0;
+        padding-bottom: 4%;
         flex-direction: column-reverse;
+    }
+    #mainbody4{
+        padding-bottom: 12%;
+        padding-top: 0;
+    }
+    #mainbody5{
+        padding: 6%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    #mainbody6{
+        padding: 4%;
+        padding-top: 0;
     }
     #copy4, #copy7{
         padding: 0;
@@ -180,13 +234,16 @@ body{
         font-size: 1.2rem;
         line-height: 1.8rem;
     }        
+    #link1{
+        font-size: 1.1rem;
+    }    
     #copy8{
         width: 30%;
         font-size: 1.8rem;
         justify-content: center;
     }
     #source1{
-        width: 70%;
+        width: 68%;
     }
     #copy9, #copy10, #copy11, #copy13{
         width: 30%;
@@ -197,5 +254,15 @@ body{
         width: 30%;
         font-size: 0.8rem;
         border-radius: 9px;
+    }
+    #mainbody7{
+        padding-top: 13%;
+        padding-bottom: 4%;
+        font-size: 2.4rem;
+    }
+    #mainvody8{
+        padding-bottom: 13%;
+        padding-top: 0;
+        font-size: 1.9rem;
     }
 }
