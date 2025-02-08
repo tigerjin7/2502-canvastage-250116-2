@@ -267,10 +267,14 @@ body{
     }
     #mainbody7{
         margin-top: 13%;
+        padding-left: 2%;
+        padding-right: 2%;
         font-size: 2rem;
     }
     #mainvody8{
         margin-bottom: 6%;
+        padding-left: 2%;
+        padding-right: 2%;
         font-size: 1.6rem;
     }
 }
