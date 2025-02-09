@@ -75,7 +75,7 @@ body{
     font-size: 1.6rem;
     line-height: 2.5rem;
 }
-#mainbody2, #mainbody3, #mainbody5{
+#mainbody2, #mainbody3{
     padding: 3rem;
     padding-top: 0;
     padding-bottom: 0;
@@ -133,6 +133,12 @@ body{
     text-align: center;
     font-size: 1.5rem;
     color: black;
+}
+#mainbody5{
+    padding: 3rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
 }
 #copy8{
     width: 18%;
@@ -212,10 +218,13 @@ body{
         width: 90%;
     }  
     #maintitle{
-        margin: 0.3rem;
+        margin: 0.8rem;
         margin-left: 2%;
         margin-right: 2%;
-        padding: 1rem;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
         border-radius: 13px;
     }      
     #copy1{
@@ -255,13 +264,6 @@ body{
         padding-bottom: 0;
         flex-direction: column-reverse;
     }
-    #mainbody5{
-        padding: 2rem;
-        padding-left: 6%;
-        padding-right: 8%;
-        padding-bottom: 0;
-        padding-top: 0;
-    }
     #copy4, #copy7{
         padding: 0;
         padding-bottom: 1rem;
@@ -283,19 +285,26 @@ body{
     #link1, #link2{
         font-size: 1.2rem;
     }    
+    #mainbody5{
+        padding: 2rem;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
     #copy8{
-        width: 33%;
+        width: 35%;
         font-size: 1.8rem;
         justify-content: center;
     }
     #source1{
-        width: 60%;
+        width: 65%;
     }
     #mainbody6{
         padding: 1.5rem;
         padding-top: 0.5rem;
-        padding-left: 7%;
-        padding-right: 7%;
+        padding-left: 8%;
+        padding-right: 6%;
     }
     #copy9, #copy10, #copy11, #copy13{
         margin-right: 0.1rem;
@@ -303,7 +312,7 @@ body{
         margin-bottom: 0.2rem;  
         padding: 0.2rem;  
         width: 30%;
-        font-size: 0.8rem;
+        font-size: 0.88rem;
         border-radius: 8px;
     }
     #copy12{
@@ -312,7 +321,7 @@ body{
         margin-bottom: 0.2rem;   
         padding: 0.2rem; 
         width: 30%;
-        font-size: 0.7rem;
+        font-size: 0.78rem;
         border-radius: 9px;
     }
     #mainbody7{
