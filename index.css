@@ -84,6 +84,7 @@ body{
 }
 #copy4{
     padding: 7%;
+    padding-top: 2.2rem;
     width: 45%;
     font-family: Arial, sans-serif;   
     font-size: 4.5rem; 
@@ -97,6 +98,7 @@ body{
 }
 #copy7{
     padding: 7%;
+    padding-top: 2.2rem;
     width: 40%;
     font-family: Arial, sans-serif;   
     font-size: 4.5rem; 
@@ -164,7 +166,22 @@ body{
     flex-wrap: wrap;
     align-content: center;
 }
-#copy9, #copy10, #copy11, #copy12, #copy13{
+#copy12{
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+    margin-bottom: 0.4rem;
+    padding: 1%;
+    width: 22%;
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    background-color: black;
+    border-radius: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#copy9, #copy10, #copy11, #copy13{
     margin-right: 0.5%;
     margin-left: 0.5%;
     margin-bottom: 0.4rem;
@@ -305,7 +322,7 @@ body{
         margin-bottom: 0.2rem;   
         width: 30%;
         font-size: 0.78rem;
-        border-radius: 9px;
+        border-radius: 8px;
     }
     #mainbody7{
         margin: 8%;
