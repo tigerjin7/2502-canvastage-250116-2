@@ -84,8 +84,9 @@ body{
 }
 #copy4{
     padding: 7%;
+    padding-right: 12%;
     padding-top: 2.2rem;
-    width: 45%;
+    width: 35%;
     font-family: Arial, sans-serif;   
     font-size: 4.5rem; 
     font-weight: bold;
@@ -98,8 +99,9 @@ body{
 }
 #copy7{
     padding: 7%;
+    padding-left: 12%;
     padding-top: 2.2rem;
-    width: 40%;
+    width: 35%;
     font-family: Arial, sans-serif;   
     font-size: 4.5rem; 
     font-weight: bold;
@@ -276,6 +278,8 @@ body{
     }
     #copy4, #copy7{
         padding: 0;
+        padding-left: 0;
+        padding-right: 0;
         padding-bottom: 1rem;
         width: 100%;
         font-size: 2.8rem;
